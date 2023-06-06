@@ -1,20 +1,16 @@
 * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 
-    --background-image: url(media/background_image/image01.jpg);/* background image*/
-	--music-themes-background-image: linear-gradient(
-		90deg,
-		#833ab4,
-		#fd1d1d,
-		#fcb045
-	);
   }
    
   body {
+    background-image: linear-gradient(120deg, #44f180 0%, #83e1ed 100%);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
    
-    background-image: var(--background-image);
-	margin: 0px;
-	font-family: "Segoe UI", Arial, sans-serif;
-	color: white;
   }
   header {
     font-size: 2rem;
